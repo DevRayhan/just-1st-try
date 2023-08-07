@@ -65,7 +65,7 @@ ul li a:hover{
 /* hero      section        start */
 
 .heroSection{
-    background-image: url(/img/119476347_125430882624066_8474372668576448892_n.jpg);
+    background-image: url(https://i.ibb.co/FX4QmH7/119476347-125430882624066-8474372668576448892-n.jpg);
     padding: 300px 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,6 +196,7 @@ ul li a:hover{
     height: 300px;
     width: 300px;
     border-radius: 50%;
+    border: 7px double gold;
 }
 .service-contact span{
     margin-right: 7px;
@@ -212,4 +213,37 @@ ul li a:hover{
     font-size: 33px;
     margin: 17px 0;
     color: #25CCF7;
+}
+
+/* gellary        section         start */
+
+.gallerySection{
+    background-color: #25CCF7;
+    padding: 70px 0;
+}
+.g-text {
+    color: white;
+    width: 75%;
+    margin: auto;
+}
+.g-text h1{
+    font-size: 27px;
+}
+.g-text p {
+    font-size: 15px;
+    line-height: 27px;
+    margin: 30px 0;
+}
+.g-img{
+    width: 30%;
+    margin: 1%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 7px dotted goldenrod;
+    transition: .9s;
+}
+.g-img:hover{
+    transform: rotate(360deg);
+    scale: 1.1;
+    cursor: pointer;
 }
