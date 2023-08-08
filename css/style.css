@@ -323,3 +323,11 @@ ul li a:hover{
     background-color: #25CCF7;
     color: white;
 }
+/* footer           section        start */
+
+.footerSection{
+    background-color: #100e17;
+    padding: 37px 0;
+    color: white;
+    font-size: 27px;
+}
