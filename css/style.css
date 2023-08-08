@@ -66,7 +66,7 @@ ul li a:hover{
 
 .heroSection{
     background-image: url(https://i.ibb.co/FX4QmH7/119476347-125430882624066-8474372668576448892-n.jpg);
-    padding: 300px 0;
+    padding: 400px 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -91,6 +91,7 @@ ul li a:hover{
     font-weight: 800;
 }
 .hero img{
+    margin-top: 57px;
     width: 300px;
 }
 .h-text h1 {
@@ -235,10 +236,10 @@ ul li a:hover{
     margin: 30px 0;
 }
 .g-img{
-    width: 30%;
-    margin: 1%;
+    width: 25%;
+    margin: 2.7%;
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 50px;
     border: 7px dotted goldenrod;
     transition: .9s;
 }
@@ -246,4 +247,79 @@ ul li a:hover{
     transform: rotate(360deg);
     scale: 1.1;
     cursor: pointer;
+}
+/* price      section            start */
+
+.priceSection{
+    padding: 70px 0;
+    background-color: darkgray;
+}
+.p-text h1 {
+    font-size: 71px;
+    font-weight: 500;
+    line-height: 101px;
+}
+.p-text p {
+    font-size: 23px;
+    line-height: 83px;
+}
+.single-p {
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.p-header {
+    border-bottom: 1px solid #ffffff;
+    padding: 20px;
+    transition: .7s;
+}
+.p-header:hover {
+    background-color: #25CCF7;
+    color: white;
+}
+.p-header span{
+    font-size: 20px;
+}
+.p-header h3 {
+    font-size: 23px;
+    line-height: 57px;
+}
+.p-header h1 {
+    font-size: 53px;
+}
+.p-header h4 {
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 59px;
+}
+.p-header p {
+    font-size: 21px;
+    line-height: 27px;
+}
+.p-bottom{
+    padding: 20px;
+}
+.p-bottom {
+    font-size: 24px;
+    line-height: 57px;
+}
+.p-bottom span {
+    font-size: 27px;
+    color: orange;
+    margin-right: 7px;
+}
+.p-bottom a {
+    font-size: 23px;
+    background: white;
+    padding: 3px 39px;
+    display: inline-block;
+    border-radius: 9px;
+    margin-top: 47px;
+    color: cornflowerblue;
+    transition: .5s;
+}
+.p-bottom a:hover{
+    background-color: #25CCF7;
+    color: white;
 }
